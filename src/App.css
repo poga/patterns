@@ -1,0 +1,56 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.control-group label {
+  min-width: 70px;
+}
+
+.control-group input[type="range"] {
+  width: 150px;
+}
+
+.control-group span {
+  min-width: 40px;
+}
+
+.canvas {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: black;
+}
+
+.text-controls input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 200px;
+}
+
+.text-controls input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
